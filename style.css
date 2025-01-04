@@ -3,3 +3,363 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.left-side {
+	display: flex;
+	flex-direction: column;
+}
+
+.logo {
+	width: 71px;
+	height: 74px;
+	margin: 30px 30px 0 47px;
+}
+
+.pages {
+	display: flex;
+	flex-direction: column;
+	gap: 49px;
+	margin: 90px 59px 0 59px;
+}
+
+.pages img {
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+
+.pages img:hover {
+	transition: all 0.5s ease;
+	transform: scale(1.2);
+}
+
+.all-in {
+	display: flex;
+}
+
+.main {
+	background-color: #eceff5;
+}
+
+header {
+	display: flex;
+}
+
+h1 {
+	font-size: 23px;
+	font-weight: 600;
+	margin-left: 40px;
+	margin-top: 50px;
+}
+
+header input {
+	width: 652px;
+	height: 40px;
+	border-radius: 10px;
+	border: none;
+	margin-left: 24px;
+	margin-top: 40px;
+}
+
+header h2 {
+	font-size: 15px;
+	font-weight: 600;
+	margin-left: 24px;
+	margin-top: 52px;
+}
+
+.ava {
+	width: 40px;
+	height: 40px;
+	margin-left: 37px;
+	margin-top: 40px;
+	cursor: pointer;
+}
+
+.volume {
+	margin-left: 16px;
+	margin-top: 40px;
+	width: 40px;
+	height: 40px;
+	border-radius: 10px;
+	background-color: white;
+	cursor: pointer;
+}
+
+.volume img {
+	width: 16px;
+	height: 16px;
+	margin-left: 12px;
+	margin-top: 12px;
+}
+
+.setting {
+	margin-left: 16px;
+	margin-top: 40px;
+	margin-right: 40px;
+	width: 40px;
+	height: 40px;
+	border-radius: 10px;
+	background-color: white;
+	cursor: pointer;
+}
+
+.setting img {
+	width: 16px;
+	height: 16px;
+	margin-left: 12px;
+	margin-top: 12px;
+}
+
+main {
+	display: flex;
+	gap: 22px;
+}
+
+.main-page p {
+	font-size: 15px;
+	font-weight: 700;
+	color: white;
+	padding-top: 58px;
+	padding-left: 68px;
+}
+
+.main-page h2 {
+	font-size: 46px;
+	font-weight: 700;
+	color: white;
+	margin-top: 16px;
+	padding-left: 68px;
+}
+
+.main-page button {
+	margin-left: 68px;
+	margin-top: 22px;
+	cursor: pointer;
+	color: white;
+	font-size: 19px;
+	font-weight: 700;
+	padding: 15px 60px 15px 28px;
+	border: none;
+	background-color: #5e8dea;
+	border-radius: 10px;
+	font-family: serif;
+}
+
+.main-page button:hover {
+	background-color: #5b82ce;
+}
+
+.main-page {
+	position: relative;
+
+	margin-top: 29px;
+	margin-left: 40px;
+
+	width: 903px;
+	height: 329px;
+	border-radius: 10px;
+	background: linear-gradient(262.8deg, #5b82ce 0%, #283c64 99.45%);
+}
+
+.capitan-america {
+	position: absolute;
+	top: 90px;
+	left: 670px;
+}
+
+.history {
+	margin-top: 29px;
+	width: 285px;
+	height: 329px;
+	border-radius: 10px;
+	background-color: #ffffff;
+	border: 2px solid #ffffff1a;
+	backdrop-filter: blur(281px);
+}
+
+.history h2 {
+	font-size: 23px;
+	font-weight: 600;
+	color: #050729;
+	margin-bottom: 8px;
+	margin-top: 28px;
+	margin-left: 34px;
+}
+
+.history-apps {
+	display: flex;
+	align-items: center;
+	margin-top: 16px;
+	margin-left: 34px;
+}
+
+.history-apps img {
+	width: 45px;
+	height: 45px;
+}
+
+.history-apps p {
+	font-size: 15px;
+	font-weight: 600;
+	margin-left: 16px;
+}
+
+.history-apps button {
+	font-size: 10px;
+	font-weight: 400;
+	color: #5e8dea;
+	padding: 8px 12px 8px 12px;
+	border: none;
+	border-radius: 10px;
+	background-color: #faf9fe;
+
+	width: 67px;
+	height: 27px;
+	cursor: pointer;
+	margin-left: 22px;
+}
+
+.history-apps button:hover {
+	background-color: #f3f3f5;
+}
+
+.categories {
+	margin-left: 40px;
+	margin-top: 28px;
+}
+
+.categories h2 {
+	font-size: 23px;
+	font-weight: 600;
+	color: #050729;
+	margin-bottom: 68px;
+}
+
+.categories p {
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: 600;
+	color: #9394a5;
+	background-color: #ffffff;
+	margin-top: 14px;
+	width: 285px;
+	height: 49px;
+	padding: 16px 20px 16px 16px;
+	border-radius: 10px;
+	transition: all 0.5s ease;
+}
+
+.categories p:hover {
+	color: #050729;
+	transition: all 0.5s ease;
+}
+
+.subway {
+	margin-top: 40px;
+	margin-left: 24px;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+
+	flex-direction: column;
+	width: 285px;
+	height: 320px;
+	background-color: white;
+	border-radius: 10px;
+	gap: 15px;
+}
+
+.subway-img {
+	width: 285px;
+	height: 186px;
+}
+
+.subway h2 {
+	font-weight: 500;
+	font-size: 18px;
+	color: rgba(5, 7, 41, 1);
+	text-align: center;
+}
+
+.star {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+
+.star img {
+	width: 15px;
+	height: 15px;
+}
+
+.subway button {
+	width: 250px;
+	height: 40px;
+	border-radius: 10px;
+	background: rgba(94, 141, 234, 1);
+	border: none;
+	font-size: 16px;
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+	color: white;
+}
+
+.subway button:hover {
+	background-color: #5b82ce;
+}
+
+.app-sec {
+	display: flex;
+}
+
+.img-s img {
+	width: 45px;
+	height: 45px;
+}
+
+.section-3 {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	gap: 30px;
+	margin-top: 20px;
+	background-color: white;
+	padding: 25px;
+	border-radius: 15px;
+}
+
+.btns {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 25px;
+}
+
+.btns button {
+	width: 70px;
+	height: 34px;
+	border: 1px solid rgb(157, 157, 157);
+	border-radius: 10px;
+	background-color: white;
+
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.btns button:hover {
+	background-color: rgb(94, 141, 234);
+	color: white;
+}
+
+.line {
+	width: 793px;
+	height: 10px;
+}
